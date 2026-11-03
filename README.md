@@ -3,6 +3,7 @@
 Soroban (Stellar smart-contract) workspace for **BANJEE** (product codename: **Zylo**). Two contracts give every user a deterministic on-chain Stellar deposit wallet, hold SAC assets (USDC, native XLM SAC), and sweep to a Naira vault for off-ramp settlement.
 
 > Live: **https://www.usebanjee.com**
+> **Full product + architecture doc (spans all three repos): [`PRODUCT.md`](PRODUCT.md)**
 > Sister repos: [`Zylo-Finace/frontend`](https://github.com/Zylo-Finace/frontend) · [`Zylo-Finace/backend`](https://github.com/Zylo-Finace/backend)
 
 ---
