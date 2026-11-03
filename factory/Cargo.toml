@@ -1,0 +1,17 @@
+[package]
+name = "zylo-factory"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+description = "Upgradable factory that deploys BANJEE per-user wallets on register"
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+zylo-wallet = { path = "../wallet" }
