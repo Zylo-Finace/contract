@@ -1,0 +1,11 @@
+/target
+.soroban
+.stellar
+*.rs.bk
+.env
+.env.*
+!.env.example
+.env.deploy
+.env.mainnet
+test_snapshots/
+**/test_snapshots/
